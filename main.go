@@ -21,6 +21,6 @@ func init() {
 	})
 }
 func run() {
-	Print(Green("server rtmp start at"), BrightBlue(config.ListenAddr))
+	Print(Green("server LiveRtmp start at"), BrightBlue(config.ListenAddr))
 	log.Fatal(ListenRtmp(config.ListenAddr))
 }
